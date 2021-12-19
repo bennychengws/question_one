@@ -1,0 +1,21 @@
+.container {
+    margin: 1rem 5vw;
+}
+
+.bookTitle {
+    margin: 3vh 0;
+    font-size: calc(1em + 0.3vw);
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: row;
+    width: 45vw;
+  }
+  
+  @media (max-width: 720px)	{
+    .inputBox {
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }

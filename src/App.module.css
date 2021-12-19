@@ -29,6 +29,12 @@ form {
   margin-left: 1vw;
 }
 
+button {
+  margin-top: 3vh;
+  width: 7vw;
+  font-size: calc(0.5em + 0.25vw);
+}
+
 @media (max-width: 720px)	{
   .inputBox {
     flex-direction: column;
@@ -37,6 +43,11 @@ form {
   .passwordBox {
     margin-left: 0;
   }
+
+  button {
+    width: 17vw;
+    font-size: calc(0.5em + 0.1vw);
+  }
 }
 
 span {
@@ -44,8 +55,3 @@ span {
 }
 
 
-button {
-  margin-top: 3vh;
-  width: 15vw;
-  font-size: calc(0.5em + 0.25vw);
-}
